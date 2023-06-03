@@ -7,7 +7,6 @@ import Features from './components/features/Features'
 import Benefits from './components/benefits/Benefits'
 import Testimonials from './components/testimonials/Testimonials'
 import Price from './components/price/Price'
-import Footer from './components/footer/Footer'
 
 function App() {
 
