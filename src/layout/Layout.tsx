@@ -6,7 +6,7 @@ export default function Layout(props: React.PropsWithChildren) {
   return (
 <>
 <Header/>
-    <main className="container mx-auto">
+    <main className="mx-auto">
         {props.children}    
     </main>
     <Footer/>

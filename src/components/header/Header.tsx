@@ -3,8 +3,8 @@ import Logo from "../../assets/image.svg";
 import { IconBrandInstagram, IconBrandFacebook, IconBrandYoutube, IconBrandWhatsapp  } from '@tabler/icons-react';
 export default function Header() {
   return (
-    <header className="bg-off-red mx-auto p-2">
-      <div className="container mx-auto">
+    <header className="bg-off-red mx-auto p-2 ">
+      <div className="container mx-auto max-w-screen-xl px-6">
         <div className="flex justify-between items-center py-4">
           <div className="align-self-start">
             <img src={Logo} alt="Logo" width="200" />
