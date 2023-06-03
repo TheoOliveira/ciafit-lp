@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function SecondVideo() {
   return (
     <section className="bg-white py-12">

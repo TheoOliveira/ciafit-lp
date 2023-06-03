@@ -1,4 +1,3 @@
-import React from "react";
 import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube, IconMapPin } from "@tabler/icons-react";
 import Logo from '../../assets/image.svg';
 

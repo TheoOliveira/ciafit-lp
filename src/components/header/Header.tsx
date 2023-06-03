@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../../assets/image.svg";
 import { IconBrandInstagram, IconBrandFacebook, IconBrandYoutube, IconBrandWhatsapp  } from '@tabler/icons-react';
 export default function Header() {
