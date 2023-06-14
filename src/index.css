@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-  @layer base {
-    html {
-        font-family: 'Rubik Variable', system-ui, sans-serif;
-      }
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Rubik Variable", system-ui, sans-serif;
   }
+}

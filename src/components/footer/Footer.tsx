@@ -1,5 +1,10 @@
-import { IconBrandFacebook, IconBrandInstagram, IconBrandYoutube, IconMapPin } from "@tabler/icons-react";
-import Logo from '../../assets/image.svg';
+import {
+  IconBrandFacebook,
+  IconBrandInstagram,
+  IconBrandYoutube,
+  IconMapPin,
+} from "@tabler/icons-react";
+import Logo from "../../assets/images/Logo-ciafit-cinza.png";
 
 export default function Footer() {
   return (
@@ -10,26 +15,36 @@ export default function Footer() {
             <div>
               <div className="flex gap-2 pb-6">
                 <IconMapPin color="red" size={40} />
-                <div className="text-white"><h3>Espinheiro</h3>
-                <p>Rua Santos Elias, 67, Espinheiro</p></div>
+                <div className="text-white">
+                  <h3 className="font-black">Espinheiro</h3>
+                  <p>Rua Santos Elias, 67, Espinheiro</p>
+                </div>
               </div>
               <div className="flex gap-2">
                 <IconMapPin color="red" size={40} />
-                <div className="text-white"><h3>Caxangá</h3>
-                <p>Av. do Forte, 477, Cordeiro</p></div>
+                <div className="text-white">
+                  <h3 className="font-black">Caxangá</h3>
+                  <p>Av. do Forte, 477, Cordeiro</p>
+                </div>
               </div>
             </div>
           </div>
           <div className="flex flex-start gap-6 justify-center">
             <div className="flex gap-4">
-             <IconBrandInstagram color="white" size={40} />
-             <IconBrandFacebook color="white" size={40} />
-             <IconBrandYoutube color="white" size={40} />
+              <a className="hover:animate-bounce cursor-pointer">
+                <IconBrandInstagram color="white" size={40} />
+              </a>
+              <a className="hover:animate-bounce cursor-pointer">
+                <IconBrandFacebook color="white" size={40} />
+              </a>
+              <a className="hover:animate-bounce cursor-pointer">
+                <IconBrandYoutube color="white" size={40} />
+              </a>
             </div>
           </div>
           <div className="flex flex-start gap-6 justify-center">
             <div>
-          <img src={Logo} alt="logo" />
+              <img src={Logo} alt="logo" />
             </div>
           </div>
         </div>

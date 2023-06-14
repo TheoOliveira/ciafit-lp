@@ -8,15 +8,18 @@ import {
 } from "@tabler/icons-react";
 export default function Features() {
   return (
-    <section className="bg-jet py-12">
+    <section className="bg-jet py-12" id="features">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Designed for business teams like yours
+          <h2 className="mb-4 font-black text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            Desenvolvido para você ir além
           </h2>
           <p className="text-white sm:text-xl ">
-            Here at Flowbite we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+            Pensado para você ser exclusivo e entender como você poder chegar
+            mais alto com benefícios extras de uma academia comum.{" "}
+            <a className="underline cursor-pointer" href="#works">
+              Quer saber como funciona?
+            </a>
           </p>
         </div>
         <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -25,20 +28,26 @@ export default function Features() {
               <IconFriends color="red" size={30} />
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Marketing
+              Atendimento exclusivo até duas pessoas
             </h3>
-            <p className="text-white ">
-              Plan it, create it, launch it. Collaborate seamlessly with all the
-              organization and hit your marketing goals every month with our
-              marketing plan.
+            <p className="text-white pb-6">
+              O Ciafit Premium é uma modalidade de atendimento exclusivo para
+              até duas pessoas por vez, em que o aluno tem a atenção total do
+              professor durante seus treinos.
+            </p>
+            <p className="text-off-red">
+              Além do apoio emocional, vai ter sempre alguém ali puxando sua
+              orelha para te levar à excelência.
             </p>
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
               <IconBarbell color="red" size={30} />
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
-            <p className="text-white ">
+            <h3 className="mb-2 text-xl font-bold dark:text-white">
+              Acesso Total a todas as modalidades da academia
+            </h3>
+            <p className="text-white">
               Protect your organization, devices and stay compliant with our
               structured workflows and custom permissions made for you.
             </p>
@@ -48,7 +57,7 @@ export default function Features() {
               <IconStar color="red" size={30} />
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Business Automation
+              Atenção total do professor
             </h3>
             <p className="text-white ">
               Auto-assign tasks, send Slack messages, and much more. Now power
@@ -57,36 +66,34 @@ export default function Features() {
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-             <IconClock color="red" size={30} />
-            </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-            <p className="text-white ">
-              Audit-proof software built for critical financial operations like
-              month-end close and quarterly budgeting.
-            </p>
-          </div>
-          <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-             <IconCalendar color="red" size={30}/>
+              <IconClock color="red" size={30} />
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Enterprise Design
+              Flexibilidade de horários (15 opções)
             </h3>
-            <p className="text-white ">
-              Craft beautiful, delightful experiences for both marketing and
-              product with real cross-company collaboration.
+            <p className="text-white pb-4">
+              No Ciafit Premium, das 6h às 21h, o aluno tem mais de 15 opções de
+              horários para treinar durante o dia.
+            </p>
+            <p className="text-off-red">
+              Não tem mais desculpas para faltar os treinos.
             </p>
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-         <IconCashBanknote color="red" size={30}/>
+              <IconCalendar color="red" size={30} />
             </div>
             <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Operations
+              365 dias por ano
             </h3>
             <p className="text-white">
-              Keep your company’s lights on with customizable, iterative, and
-              structured workflows built for all efficient teams and individual.
+              Além de acesso a mais de 25 modalidades como: Musculação,
+              Hidroginástica, Pilates Solo, Bike Indoor, Grupo de Corrida, Muay
+              Thai, Fit Dance e mais de 20 outras aulas,{" "}
+              <span className="text-off-red" s>
+                o aluno Ciafit Premium tem acesso à toda rede Ciafit Family
+                Club, durante 365 dias por ano.
+              </span>
             </p>
           </div>
         </div>
