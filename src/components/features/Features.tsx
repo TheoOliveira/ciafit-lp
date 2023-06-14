@@ -90,7 +90,7 @@ export default function Features() {
               Além de acesso a mais de 25 modalidades como: Musculação,
               Hidroginástica, Pilates Solo, Bike Indoor, Grupo de Corrida, Muay
               Thai, Fit Dance e mais de 20 outras aulas,{" "}
-              <span className="text-off-red" s>
+              <span className="text-off-red">
                 o aluno Ciafit Premium tem acesso à toda rede Ciafit Family
                 Club, durante 365 dias por ano.
               </span>
