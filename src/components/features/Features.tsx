@@ -4,7 +4,6 @@ import {
   IconCalendar,
   IconClock,
   IconStar,
-  IconCashBanknote,
 } from "@tabler/icons-react";
 export default function Features() {
   return (
