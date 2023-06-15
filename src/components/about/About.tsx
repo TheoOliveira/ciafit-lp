@@ -6,11 +6,11 @@ export default function About() {
         <div className="mt-8 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-2 justify-center  gap-12 align-middle">
           <div className="flex flex-start gap-6">
             <div>
-              <div className="py-12 px-8 text-night text-center tracking-wider">
-                <h2 className="font-black text-4xl uppercase text-black pb-12">
+              <div className="py-12 px-8 text-night tracking-wider">
+                <h2 className=" p-6 font-black text-4xl uppercase text-black pb-12">
                   Nossa História
                 </h2>
-                <p className="text-2xl text-night p-8 text-justify">
+                <p className="text-2xl text-night p-6 text-left">
                   Há mais de 30 anos,{" "}
                   <span className="text-off-red">começamos a sonhar</span> com
                   um espaço completo de saúde para toda a família. Hoje,
@@ -21,7 +21,7 @@ export default function About() {
                   . Somos uma academia que é referência no estado, conhecida
                   pelo acolhimento, carinho, dedicação e excelência.
                 </p>
-                <p className="text-2xl text-night text-justify p-8">
+                <p className="text-2xl text-night p-6 text-left">
                   Durante nossa jornada, esbarramos com várias histórias que
                   moldaram e ressignificaram os laços entre nossos profissionais
                   e alunos. O que, realmente, faz a diferença no alcance dos
@@ -36,13 +36,11 @@ export default function About() {
                   </span>
                   .
                 </p>
-                <p className="text-2xl text-night text-justify p-8">
+                <p className="text-2xl text-night p-6 text-left">
                   Por isso, criamos uma metodologia de atendimento exclusivo,
                   pensada essencialmente para você:
                 </p>
-                <p className="text-2xl text-night text-justify p-8">
-                  O Ciafit Premium
-                </p>
+                <p className="text-2xl text-night p-6">O Ciafit Premium</p>
               </div>
             </div>
           </div>

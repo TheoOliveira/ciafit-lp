@@ -12,10 +12,10 @@ export default function Hero() {
       ></video>
       <div className="container mx-auto flex items-center justify-between h-screen relative z-10 max-w-screen-xl sm:py-16 lg:px-6">
         <div className="p-8 md:p-0">
-          <h1 className="md:m-6 lg:max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+          <h1 className="md:m-6 lg:max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
             Venha fazer parte da Revolução do Bem-Estar
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-white">
+          <p className="max-w-2xl m-4 md:mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl text-white">
             From checkout to global sales tax compliance, companies around the
             world use Flowbite to simplify their payment stack.
           </p>
@@ -28,7 +28,7 @@ export default function Hero() {
           </a>
           <a
             href="#"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
           >
             Fale Conosco
           </a>
