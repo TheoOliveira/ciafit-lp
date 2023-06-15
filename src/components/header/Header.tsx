@@ -11,7 +11,7 @@ export default function Header() {
       <div className="container mx-auto max-w-screen-xl px-6">
         <div className="flex justify-between items-center py-4">
           <div className="align-self-start">
-            <img src={Logo} alt="Logo" width="200" />
+            <img src={Logo} alt="Logo" width="150" />
           </div>
           <div className="align-self-end flex content-between gap-4">
             <div>

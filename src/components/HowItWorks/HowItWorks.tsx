@@ -9,7 +9,7 @@ export default function HowItWorks() {
     <section className="bg-platinum py-12" id="works">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div>
-          <h2 className="font-black text-3xl text-gray-900 uppercase mb-6">
+          <h2 className="font-black text-4xl text-gray-900 uppercase mb-6">
             Como funciona o ciafit premium?
           </h2>
         </div>
@@ -22,7 +22,7 @@ export default function HowItWorks() {
                 color={"red"}
                 className="align-self-center mb-6"
               />
-              <h2 className="font-black">Consulta Premium</h2>
+              <h2 className="font-black text-xl pb-4">Consulta Premium</h2>
               <p>
                 Agende sua primeira Consulta Premium com o nosso avaliador para
                 te ajudar a definir as primeiras metas{" "}
@@ -36,7 +36,7 @@ export default function HowItWorks() {
             <div className="text-2xl font-black uppercase text-off-red">2.</div>
             <div>
               <IconRulerMeasure size={64} color={"red"} className="mb-6" />
-              <h2 className="font-black">Início dos Treinos</h2>
+              <h2 className="font-black text-xl pb-4">Início dos Treinos</h2>
               <p>
                 Agende suas aulas pelo nosso aplicativo e treine com professores
                 exclusivos totalmente conectados por meio de nossos Ipads.
@@ -48,7 +48,7 @@ export default function HowItWorks() {
             <div className="text-2xl font-black uppercase text-off-red">3.</div>
             <div>
               <IconBarbell size={64} color={"red"} className="mb-6" />
-              <h2 className="font-black">Acompanhamento</h2>
+              <h2 className="font-black text-xl pb-4">Acompanhamento</h2>
               <p>
                 {" "}
                 Comece seus treinos com o acompanhamento exclusivo do Ciafit

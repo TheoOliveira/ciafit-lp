@@ -81,7 +81,7 @@ export default function SecondVideo() {
                     transition={{ duration: 1.2, delay: 0.1 }}
                 >
                     <div className="mt-4 md:mt-0">
-                        <h2 className="mb-12 text-4xl tracking-tight font-extrabold text-black">
+                        <h2 className="mb-12 uppercase text-4xl tracking-tight font-black text-black">
                             Compartilhe do Bem-estar em Família
                         </h2>
                         <p className="mb-8 font-light  text-xl text-gray-500 leading-loose">

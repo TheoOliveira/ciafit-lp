@@ -4,7 +4,7 @@ export default function Benefits() {
     <section className="bg-white py-12" id="extras">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div>
-          <h2 className="font-black text-3xl text-gray-900 uppercase">
+          <h2 className="font-black text-4xl text-gray-900 uppercase">
             Beneficios
           </h2>
         </div>

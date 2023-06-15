@@ -7,7 +7,7 @@ export default function About() {
           <div className="flex flex-start gap-6">
             <div>
               <div className="py-12 px-8 text-night text-center tracking-wider">
-                <h2 className="font-black text-6xl text-black pb-12">
+                <h2 className="font-black text-4xl uppercase text-black pb-12">
                   Nossa História
                 </h2>
                 <p className="text-2xl text-night p-8 text-justify">
