@@ -1,8 +1,4 @@
-import {
-  IconBarbell,
-  IconCalendar,
-  IconRulerMeasure,
-} from "@tabler/icons-react";
+import { IconBarbell, IconCalendar, IconStar } from "@tabler/icons-react";
 
 export default function HowItWorks() {
   return (
@@ -35,7 +31,7 @@ export default function HowItWorks() {
           <div className="flex flex-start gap-6">
             <div className="text-2xl font-black uppercase text-off-red">2.</div>
             <div>
-              <IconRulerMeasure size={64} color={"red"} className="mb-6" />
+              <IconStar size={64} color={"red"} className="mb-6" />
               <h2 className="font-black text-xl pb-4">Início dos Treinos</h2>
               <p>
                 Agende suas aulas pelo nosso aplicativo e treine com professores
