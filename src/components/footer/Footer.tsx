@@ -8,6 +8,7 @@ import Logo from "../../assets/images/Logo-ciafit-cinza.png";
 
 export default function Footer() {
   return (
+    <div className="bg-jet">
     <footer className="bg-jet mx-auto py-12">
       <div className="container mx-auto max-w-screen-xl px-6">
         <div className="mt-8 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 content-center justify-center">
@@ -50,5 +51,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    <small className="text-white px-2">Desenvolvido por <a className="text-blue-500" href="https://www.webworks.digital/?utm_source=ciafit">WebWorks</a></small>
+    </div>
   );
 }

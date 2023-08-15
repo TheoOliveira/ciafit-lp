@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-import FamilyGym from "../../assets/images/lj-lara-j0jeExniTXw-unsplash.jpg";
-
+import PremiumVideo from '../../assets/videos/premium1.mp4'
+import styles from "./SecondVideo.module.css";
 export default function SecondVideo() {
   const controls = useAnimation();
 
@@ -37,19 +37,20 @@ export default function SecondVideo() {
   }, []);
 
   return (
-    <section className="bg-white py-12" id="secondVideo">
-      <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+    <section className={`bg-white py-12 ${styles.background}`} id="secondVideo">
+      <div className={`gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6`}>
         <motion.div
           className="place-self-start"
           initial={{ x: -1500 }}
           animate={controls}
           transition={{ duration: 1.2, delay: 0.1 }}
         >
-          <img
-            className="w-full hidden dark:block"
-            src={FamilyGym}
-            alt="dashboard image"
-          />
+          <video
+        src={PremiumVideo}
+        autoPlay
+        muted
+        loop
+      ></video>
           <small>Um lugar feito para compartilhar e crescer juntos</small>
           <ul className="px-8 mt-5 list-disc">
             <li className="mb-2 font-medium text-2xl text-off-red">

@@ -7,13 +7,13 @@ import {
 } from "@tabler/icons-react";
 export default function Features() {
   return (
-    <section className="bg-jet py-12" id="features">
+    <section className="bg-night py-12" id="features">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mb-8 lg:mb-16">
-          <h2 className="mb-4 uppercase font-black text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 uppercase font-black text-4xl tracking-tight font-extrabold text-gray-300 dark:text-white">
             Desenvolvido para você ir além
           </h2>
-          <p className="text-white sm:text-xl ">
+          <p className="text-white sm:text-xl">
             Pensado para você ser exclusivo e entender como você poder chegar
             mais alto com benefícios extras de uma academia comum.{" "}
             <a className="underline cursor-pointer" href="#works">
@@ -26,7 +26,7 @@ export default function Features() {
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
               <IconFriends color="red" size={30} />
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-platinum">
               Atendimento exclusivo até duas pessoas
             </h3>
             <p className="text-white pb-6">
@@ -43,7 +43,7 @@ export default function Features() {
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
               <IconBarbell color="red" size={30} />
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-platinum">
               Acesso Total a todas as modalidades da academia
             </h3>
             <p className="text-white">
@@ -55,7 +55,7 @@ export default function Features() {
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
               <IconStar color="red" size={30} />
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-platinum">
               Atenção total do professor
             </h3>
             <p className="text-white ">
@@ -67,7 +67,7 @@ export default function Features() {
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
               <IconClock color="red" size={30} />
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-platinum">
               Flexibilidade de horários (15 opções)
             </h3>
             <p className="text-white pb-4">
@@ -82,7 +82,7 @@ export default function Features() {
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
               <IconCalendar color="red" size={30} />
             </div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-platinum">
               365 dias por ano
             </h3>
             <p className="text-white">

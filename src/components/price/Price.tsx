@@ -16,7 +16,7 @@ export default function Price() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center align-middle gap-6">
+          <div className="flex justify-center align-middle gap-6 m-auto">
             <div className="text-white uppercase tracking-widest text-4xl flex align-middle justify-center">
               <p>
                 Economize{" "}
@@ -25,7 +25,7 @@ export default function Price() {
               </p>
             </div>
           </div>
-          <div className="flex flex-start gap-6 text-white">
+          <div className="flex flex-start gap-6 text-white m-auto">
             <div>
               <p className="font-black">Sem Taxa de adesão</p>
               <p className="font-black">Sem taxa de cancelamento</p>

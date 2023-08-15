@@ -1,4 +1,4 @@
-import GymVideo from "../../assets/videos/148208.mp4";
+import GymVideo from "../../assets/videos/Sem-música_com-efeito.mp4";
 import { IconArrowBadgeDownFilled } from "@tabler/icons-react";
 export default function Hero() {
   return (
@@ -16,8 +16,7 @@ export default function Hero() {
             Venha fazer parte da Revolução do Bem-Estar
           </h1>
           <p className="max-w-2xl m-4 md:mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl text-white">
-            From checkout to global sales tax compliance, companies around the
-            world use Flowbite to simplify their payment stack.
+          Não espere mais para iniciar sua jornada fitness em família! Clique abaixo para saber mais sobre como o Plano Premium da CiaFIT pode atender às suas necessidades.
           </p>
           <a
             href="#secondVideo"
