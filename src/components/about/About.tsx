@@ -1,4 +1,4 @@
-import GymImage from "../../assets/images/CIAFIT_CampanhaFamilyClub_0136 copiar.jpg";
+import GymImage from "../../assets/images/lj-lara-j0jeExniTXw-unsplash.jpg";
 export default function About() {
   return (
     <section className="bg-white py-12">

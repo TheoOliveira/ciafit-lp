@@ -37,7 +37,7 @@ export default function SecondVideo() {
   }, []);
 
   return (
-    <section className={`bg-white py-12 ${styles.background}`} id="secondVideo">
+    <section className={`${styles.background} bg-white py-12`} id="secondVideo">
       <div className={`gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6`}>
         <motion.div
           className="place-self-start"
@@ -89,7 +89,7 @@ export default function SecondVideo() {
         >
           <div className="mt-4 md:mt-0">
             <h2 className="mb-12 uppercase text-4xl tracking-tight font-black text-black">
-              Compartilhe do Bem-estar em Família
+            Conheça o nossa metodologia de treino individualizado
             </h2>
             <p className="mb-8 font-light  text-xl text-gray-500 leading-loose">
               Há mais de 30 anos, iniciamos o sonho de criar um{" "}

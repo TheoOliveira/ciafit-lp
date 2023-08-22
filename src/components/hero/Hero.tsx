@@ -1,19 +1,16 @@
-import GymVideo from "../../assets/videos/Sem-música_com-efeito.mp4";
+import GymFamily from "../../assets/images/CIAFIT_CampanhaFamilyClub_0136 copiar.jpg"
 import { IconArrowBadgeDownFilled } from "@tabler/icons-react";
 export default function Hero() {
   return (
     <section className="min-h-screen">
-      <video
+      <img
         className="w-full h-full absolute left-0 right-0 object-cover"
-        src={GymVideo}
-        autoPlay
-        muted
-        loop
-      ></video>
+        src={GymFamily}       
+      ></img>
       <div className="container mx-auto flex items-center justify-between h-screen relative z-10 max-w-screen-xl sm:py-16 lg:px-6">
         <div className="p-8 md:p-0">
           <h1 className="md:m-6 lg:max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
-            Venha fazer parte da Revolução do Bem-Estar
+          Treine com atendimento Individualizado
           </h1>
           <p className="max-w-2xl m-4 md:mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl text-white">
           Não espere mais para iniciar sua jornada fitness em família! Clique abaixo para saber mais sobre como o Plano Premium da CiaFIT pode atender às suas necessidades.
