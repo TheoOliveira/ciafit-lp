@@ -38,9 +38,15 @@ export default function SecondVideo() {
 
   return (
     <section className={`${styles.background} bg-white py-12`} id="secondVideo">
-      <div className={`gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6`}>
+        <div className="mt-12 text-center mx-auto">
+      <h2 className="mb-12 uppercase text-4xl tracking-tight font-black text-black">
+            Conheça o nossa metodologia de treino individualizado
+            </h2>
+            </div>  
+      <div className={`gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-1 sm:py-16 lg:px-6`}>
+      
         <motion.div
-          className="place-self-start"
+          className="place-self-center"
           initial={{ x: -1500 }}
           animate={controls}
           transition={{ duration: 1.2, delay: 0.1 }}
@@ -88,23 +94,8 @@ export default function SecondVideo() {
           transition={{ duration: 1.2, delay: 0.1 }}
         >
           <div className="mt-4 md:mt-0">
-            <h2 className="mb-12 uppercase text-4xl tracking-tight font-black text-black">
-            Conheça o nossa metodologia de treino individualizado
-            </h2>
-            <p className="mb-8 font-light  text-xl text-gray-500 leading-loose">
-              Há mais de 30 anos, iniciamos o sonho de criar um{" "}
-              <span className="text-off-red font-medium">
-                espaço completo de saúde para toda a família
-              </span>
-              . Hoje, colecionamos muitas histórias. Já somos uma academia que é
-              referência no estado pelo acolhimento, dedicação e excelência.
-              Durante esse percurso, fizemos muitas conexões e constatamos que
-              os laços entre nossos profissionais e alunos realmente fizeram a
-              diferença no alcançe dos objetivo. Dessa forma, para valorizar
-              ainda mais o que oferecemos de melhor, pensando nos resultados
-              ainda mais efetivos para nossos alunos, criamos uma metodologia de
-              atendimento exclusivo. Conheça o Ciafit Premium.{" "}
-            </p>
+            
+           
             <a
               href="#"
               className="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"

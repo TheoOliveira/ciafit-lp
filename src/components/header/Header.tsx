@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/Logo-ciafit-branco.png";
+import Logo from "../../assets/images/Logo-ciafit-cinza.png";
 import {
   IconBrandInstagram,
   IconBrandFacebook,
@@ -7,7 +7,7 @@ import {
 } from "@tabler/icons-react";
 export default function Header() {
   return (
-    <header className="bg-off-red mx-auto">
+    <header className="bg-jet mx-auto">
       <div className="container mx-auto max-w-screen-xl px-6">
         <div className="flex justify-between items-center">
           <div className="align-self-start">
