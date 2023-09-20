@@ -1,5 +1,4 @@
 import { IconStar } from "@tabler/icons-react";
-import AvaliacaoVideo from "../../assets/videos/avaliacao.mp4"
 export default function Benefits() {
   return (
     <section className="bg-white py-12" id="extras">
@@ -11,7 +10,7 @@ export default function Benefits() {
         </div>
         <div className="mt-8 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-1">
         <video
-        src={AvaliacaoVideo}
+        src={""}
         controls={true}
       ></video>
         </div>
