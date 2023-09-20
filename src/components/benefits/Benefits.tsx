@@ -1,4 +1,3 @@
-import { IconStar } from "@tabler/icons-react";
 export default function Benefits() {
   return (
     <section className="bg-white py-12" id="extras">
