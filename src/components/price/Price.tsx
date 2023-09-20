@@ -29,10 +29,6 @@ export default function Price() {
             <div>
               <p className="font-black">Sem Taxa de adesão</p>
               <p className="font-black">Sem taxa de cancelamento</p>
-              <p>
-                Apenas a taxa anual no valor de R$149,90 para a renoção da
-                matrícula e liberação do aplicativo.
-              </p>
               <p>(Pode ser dividida em até 3x)</p>
             </div>
           </div>
