@@ -1,3 +1,7 @@
+import Bruna from '../../assets/images/depoimentos/Bruna Mendonca.jpeg'
+import Leonardo from '../../assets/images/depoimentos/Leonardo Mendoncca.jpg'
+
+
 export default function Testimonials() {
     return (
         <section className="bg-jet py-12">
@@ -17,23 +21,19 @@ export default function Testimonials() {
                         </svg>
                         <blockquote>
                             <p className="text-xl font-medium text-platinum ">
-                                "Flowbite is just awesome. It contains tons of predesigned
-                                components and pages starting from login screen to complex
-                                dashboard. Perfect choice for your next SaaS application."
+                                "Me matriculei no premium faz quase 2 meses e estou gostando bastante da academia como o todo tanto a parte estrutural, os equipamentos, quanto os horários, os professores que são muito atenciosos e eu que nunca tinha feito academia antes, já estou tendo uma ótima experiência, que é incrível e estou gostando bastante. A Ciafit está superando as minhas expectativas, em especial ao atendimento de Clara minha instrutora e dou prioridade para agendar com ela, todos são atenciosos. 
+"
                             </p>
                         </blockquote>
                         <figcaption className="flex items-center justify-center mt-6 space-x-3">
                             <img
                                 className="w-6 h-6 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                                src={Leonardo}
                                 alt="profile picture"
                             />
                             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div className="pr-3 font-medium text-platinum ">
-                                    Micheal Gough
-                                </div>
-                                <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                                    CEO at Google
+                                    Leonardo Mendonça
                                 </div>
                             </div>
                         </figcaption>
@@ -54,28 +54,25 @@ export default function Testimonials() {
                         </svg>
                         <blockquote>
                             <p className="text-xl font-medium text-platinum ">
-                                "Flowbite is just awesome. It contains tons of predesigned
-                                components and pages starting from login screen to complex
-                                dashboard. Perfect choice for your next SaaS application."
+                                "Faz 1 mês que me tornei aluna do plano premium e estou gostando muito. Tenho 33 anos e nunca tinha pisado numa academia e agora resolvi cuidar da saúde. E escolhi o plano premium por conta da assistência, do apoio de um profissional junto, para me orientar nas atividades. Acho que isso ajuda a motivar, o agendamento do horário torna a questão do compromisso de vim naquele dia e naquela hora, foi um excelente escolha e estou adorando.
+"
                             </p>
                         </blockquote>
                         <figcaption className="flex items-center justify-center mt-6 space-x-3">
                             <img
                                 className="w-6 h-6 rounded-full"
-                                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png"
+                                src={Bruna}
                                 alt="profile picture"
                             />
                             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
                                 <div className="pr-3 font-medium text-platinum ">
-                                    Micheal Gough
-                                </div>
-                                <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-                                    CEO at Google
+                                Bruna Mendonça
                                 </div>
                             </div>
                         </figcaption>
                     </figure>
                 </div>
+                
             </div>
         </section>
     );

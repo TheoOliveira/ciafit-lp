@@ -43,20 +43,11 @@ export default function SecondVideo() {
             Conheça o nossa metodologia de treino individualizado
             </h2>
             </div>  
-      <div className={`gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-1 sm:py-16 lg:px-6`}>
-      
-        <motion.div
-          className="place-self-center"
-          initial={{ x: -1500 }}
-          animate={controls}
-          transition={{ duration: 1.2, delay: 0.1 }}
-        >
-          <video
-        src={PremiumVideo}
-        autoPlay
-        muted
-        loop
-      ></video>
+      <div className={`gap-8 items-center py-8 px-4 mx-auto flex items-center flex-col max-w-screen-xl sm:py-16 lg:px-6`}>
+      <iframe width={"700"} height={"590"} 
+        sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+        src={`https://youtube.com/embed/iKxYF69ie1s?autoplay=1&controls=0`}>
+</iframe>
           <small>Um lugar feito para compartilhar e crescer juntos</small>
           <ul className="px-8 mt-5 list-disc">
             <li className="mb-2 font-medium text-2xl text-off-red">
@@ -87,7 +78,7 @@ export default function SecondVideo() {
               Quero saber mais
             </a>
           </ul>
-        </motion.div>
+        
         <motion.div
           initial={{ x: 1500 }}
           animate={controls}

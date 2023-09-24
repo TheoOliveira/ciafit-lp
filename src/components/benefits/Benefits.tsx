@@ -7,11 +7,11 @@ export default function Benefits() {
             Metodologia Exclusiva de Avaliação
           </h2>
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-1">
-        <video
-        src={""}
-        controls={true}
-      ></video>
+        <div className="flex flex-col items-center mt-8 gap-y-10">
+        <iframe width={"700"} height={"590"} 
+        sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
+        src={`https://youtube.com/embed/iKxYF69ie1s?autoplay=1&controls=0`}>
+</iframe>
         </div>
       </div>
     </section>

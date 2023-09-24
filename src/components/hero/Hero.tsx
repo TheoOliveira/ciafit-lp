@@ -1,4 +1,4 @@
-import GymFamily from "../../assets/images/CIAFIT_CampanhaFamilyClub_0136 copiar.jpg"
+import GymFamily from "../../assets/images/hero_2.png"
 import { IconArrowBadgeDownFilled } from "@tabler/icons-react";
 export default function Hero() {
   return (
