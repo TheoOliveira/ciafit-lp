@@ -27,7 +27,7 @@ export default function Testimonials() {
                         </blockquote>
                         <figcaption className="flex items-center justify-center mt-6 space-x-3">
                             <img
-                                className="w-6 h-6 rounded-full"
+                                className="w-16 h-16 rounded-full"
                                 src={Leonardo}
                                 alt="profile picture"
                             />
@@ -60,7 +60,7 @@ export default function Testimonials() {
                         </blockquote>
                         <figcaption className="flex items-center justify-center mt-6 space-x-3">
                             <img
-                                className="w-6 h-6 rounded-full"
+                                className="w-16 h-16 rounded-full"
                                 src={Bruna}
                                 alt="profile picture"
                             />

@@ -8,9 +8,9 @@ export default function Benefits() {
           </h2>
         </div>
         <div className="flex flex-col items-center mt-8 gap-y-10">
-        <iframe width={"700"} height={"590"} 
+        <iframe width={"100%"} height={"590"} 
         sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-        src={`https://youtube.com/embed/iKxYF69ie1s?autoplay=1&controls=0`}>
+        src={`https://youtube.com/embed/Tpdurs6BMdk?autoplay=0&controls=0`}>
 </iframe>
         </div>
       </div>

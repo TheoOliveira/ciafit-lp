@@ -3,7 +3,7 @@ export default function Price() {
     <section className="bg-night py-12">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="mt-8 grid grid-cols-1 gap-12 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 justify-center  gap-12 align-middle">
-          <div className="flex flex-start gap-6">
+          <div className="flex mx-auto flex-start gap-6">
             <div>
               <div className="border-2 rounded-3xl border-gray-400 py-12 px-8 text-white ext-center">
                 <p className="text-6xl text-gray-400">De R$ 700</p>
@@ -16,7 +16,7 @@ export default function Price() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center align-middle gap-6 m-auto">
+          <div className="flex justify-center align-middle gap-6 m-auto text-center">
             <div className="text-white uppercase tracking-widest text-4xl flex align-middle justify-center">
               <p>
                 Economize{" "}

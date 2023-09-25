@@ -12,12 +12,12 @@ export default function About() {
                 </h2>
                 <p className="text-2xl text-night p-6 text-left">
                   Há mais de 30 anos,{" "}
-                  <span className="text-off-red">começamos a sonhar</span> com
+                  começamos a sonhar com
                   um espaço completo de saúde para toda a família. Hoje,
                   colecionamos muitas histórias e grandes amizades{" "}
-                  <span className="text-off-red">
+                  
                     em um lugar que se tornou a casa da nossa família
-                  </span>
+                  
                   . Somos uma academia que é referência no estado, conhecida
                   pelo acolhimento, carinho, dedicação e excelência.
                 </p>
@@ -26,14 +26,14 @@ export default function About() {
                   moldaram e ressignificaram os laços entre nossos profissionais
                   e alunos. O que, realmente, faz a diferença no alcance dos
                   objetivos é na{" "}
-                  <span className="text-off-red">
+                  
                     constância de te desafiar a ir mais além
-                  </span>
+                  
                   . Percebemos que apesar do nosso atendimento tradicional ser
                   referência, para você,{" "}
-                  <span className="text-off-red">
+                  
                     isso ainda não é o suficiente
-                  </span>
+                  
                   .
                 </p>
                 <p className="text-2xl text-night p-6 text-left">

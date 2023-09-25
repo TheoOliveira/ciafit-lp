@@ -43,7 +43,7 @@ export default function SecondVideo() {
             </h2>
             </div>  
       <div className={`gap-8 items-center py-8 px-4 mx-auto flex items-center flex-col max-w-screen-xl sm:py-16 lg:px-6`}>
-      <iframe width={"700"} height={"590"} 
+      <iframe width={"100%"} height={"590"} 
         sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
         src={`https://youtube.com/embed/iKxYF69ie1s?autoplay=1&controls=0`}>
 </iframe>
