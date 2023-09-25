@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-import PremiumVideo from '../../assets/videos/premium1.mp4'
 import styles from "./SecondVideo.module.css";
 export default function SecondVideo() {
   const controls = useAnimation();
