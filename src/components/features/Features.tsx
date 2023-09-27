@@ -1,9 +1,7 @@
 import {
   IconFriends,
-  IconBarbell,
   IconCalendar,
   IconClock,
-  IconStar,
 } from "@tabler/icons-react";
 export default function Features() {
   return (
