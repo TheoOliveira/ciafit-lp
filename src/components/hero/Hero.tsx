@@ -1,4 +1,4 @@
-import GymFamily from "../../assets/images/hero_.png"
+import GymFamily from "../../assets/images/hero.png";
 import { IconArrowBadgeDownFilled } from "@tabler/icons-react";
 export default function Hero() {
   return (
