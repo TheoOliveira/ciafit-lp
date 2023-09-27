@@ -39,7 +39,7 @@ export default function SecondVideo() {
     <section className={`${styles.background} bg-white py-12`} id="secondVideo">
         <div className="mt-12 text-center mx-auto">
       <h2 className="mb-12 uppercase text-4xl tracking-tight font-black text-black">
-            Conheça o nossa metodologia de treino individualizado
+            Conheça o nossa metodologia de treino personalizado
             </h2>
             </div>  
       <div className={`gap-8 items-center py-8 px-4 mx-auto flex items-center flex-col max-w-screen-xl sm:py-16 lg:px-6`}>

@@ -34,33 +34,9 @@ export default function Features() {
               até duas pessoas por vez, em que o aluno tem a atenção total do
               professor durante seus treinos.
             </p>
-            <p className="text-off-red">
+            <p className="text-slate-400 font-extrabold">
               Além do apoio emocional, vai ter sempre alguém ali puxando sua
               orelha para te levar à excelência.
-            </p>
-          </div>
-          <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-              <IconBarbell color="red" size={30} />
-            </div>
-            <h3 className="mb-2 text-xl font-bold text-platinum">
-              Acesso Total a todas as modalidades da academia
-            </h3>
-            <p className="text-white">
-              Protect your organization, devices and stay compliant with our
-              structured workflows and custom permissions made for you.
-            </p>
-          </div>
-          <div>
-            <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-              <IconStar color="red" size={30} />
-            </div>
-            <h3 className="mb-2 text-xl font-bold text-platinum">
-              Atenção total do professor
-            </h3>
-            <p className="text-white ">
-              Auto-assign tasks, send Slack messages, and much more. Now power
-              up with hundreds of new templates to help you get started.
             </p>
           </div>
           <div>
@@ -74,7 +50,7 @@ export default function Features() {
               No Ciafit Premium, das 6h às 21h, o aluno tem mais de 15 opções de
               horários para treinar durante o dia.
             </p>
-            <p className="text-off-red">
+            <p className="text-slate-400 font-extrabold">
               Não tem mais desculpas para faltar os treinos.
             </p>
           </div>
@@ -89,7 +65,7 @@ export default function Features() {
               Além de acesso a mais de 25 modalidades como: Musculação,
               Hidroginástica, Pilates Solo, Bike Indoor, Grupo de Corrida, Muay
               Thai, Fit Dance e mais de 20 outras aulas,{" "}
-              <span className="text-off-red">
+              <span className="text-slate-400 font-extrabold">
                 o aluno Ciafit Premium tem acesso à toda rede Ciafit Family
                 Club, durante 365 dias por ano.
               </span>

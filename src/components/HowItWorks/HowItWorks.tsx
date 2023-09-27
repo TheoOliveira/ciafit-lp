@@ -18,11 +18,11 @@ export default function HowItWorks() {
                 color={"red"}
                 className="align-self-center mb-6"
               />
-              <h2 className="font-black text-xl pb-4">Consulta Premium</h2>
+              <h2 className="font-black text-xl pb-4">Avaliação Premium</h2>
               <p>
                 Agende sua primeira Consulta Premium com o nosso avaliador para
                 te ajudar a definir as primeiras metas{" "}
-                <span className="text-off-red">
+                <span className="font-extrabold">
                   e trilhar o caminho dos treinos.
                 </span>
               </p>
@@ -36,7 +36,6 @@ export default function HowItWorks() {
               <p>
                 Agende suas aulas pelo nosso aplicativo e treine com professores
                 exclusivos totalmente conectados por meio de nossos Ipads.
-                Treinamento).
               </p>
             </div>
           </div>
@@ -51,7 +50,7 @@ export default function HowItWorks() {
                 Premium, a partir de duas vezes por semana.{" "}
               </p>
               <p className="font-black">
-                A partir do segundo mês, você verá os melhroes resultados no seu
+                A partir do segundo mês, você verá os melhores resultados no seu
                 corpo e na sua vida.
               </p>
             </div>
