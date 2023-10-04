@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className="w-0 md:w-full md:m-6 lg:max-w-2xl mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-slate-100">
           Treino Personalizado
           </h1>
-          <p className="max-w-lg m-4 md:mb-6 font-light text-slate-100 lg:mb-8 md:text-lg lg:text-xl text-white">
+          <p className="max-w-lg py-8 m-4 md:mb-6 font-light text-slate-100 lg:mb-8 md:text-lg lg:text-xl text-white">
           Não espere mais para iniciar sua jornada fitness em família! Clique abaixo para saber mais sobre como o Plano Premium da CiaFIT pode atender às suas necessidades.
           </p>
           <a
