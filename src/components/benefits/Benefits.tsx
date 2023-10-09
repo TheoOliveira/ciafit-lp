@@ -8,10 +8,7 @@ export default function Benefits() {
           </h2>
         </div>
         <div className="flex flex-col items-center mt-8 gap-y-10">
-        <iframe width={"100%"} height={"590"} 
-        sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
-        src={`https://youtube.com/embed/Tpdurs6BMdk?autoplay=0&controls=0`}>
-</iframe>
+        <iframe width="100%" height="590" src="https://www.youtube.com/embed/E9GRRBw9kEw?si=-McVso7iIMnv2pWs&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </section>
