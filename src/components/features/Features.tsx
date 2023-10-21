@@ -45,7 +45,7 @@ export default function Features() {
               Flexibilidade de horários (15 opções)
             </h3>
             <p className="text-white pb-4">
-              No Ciafit Premium, das 6h às 21h, o aluno tem mais de 15 opções de
+              No Ciafit Premium, das 5:30h às 22h, o aluno tem mais de 15 opções de
               horários para treinar durante o dia.
             </p>
             <p className="text-slate-400 font-extrabold">

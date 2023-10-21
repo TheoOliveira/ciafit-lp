@@ -25,7 +25,7 @@ export default function Header() {
         {/* Icons section */}
         <div className="flex items-center space-x-4">
           {/* Whatsapp icon for mobile */}
-          <a className="sm:hidden hover:animate-bounce">
+          <a className="sm:hidden hover:animate-bounce" href="https://wa.me/558132285011">
             <IconBrandWhatsapp
               className="cursor-pointer"
               stroke={1}
@@ -34,7 +34,7 @@ export default function Header() {
             />
           </a>
           {/* Social icons */}
-          <a className="hover:animate-bounce">
+          <a className="hover:animate-bounce" href="https://www.instagram.com/ciafitfamilyclub/">
             <IconBrandInstagram
               className="cursor-pointer"
               stroke={1}
@@ -42,7 +42,7 @@ export default function Header() {
               color="white"
             />
           </a>
-          <a className="hover:animate-bounce">
+          <a className="hover:animate-bounce" href="https://www.facebook.com/ciafitfamilyclub">
             <IconBrandFacebook
               className="cursor-pointer"
               stroke={1}
@@ -50,7 +50,7 @@ export default function Header() {
               color="white"
             />
           </a>
-          <a className="hover:animate-bounce">
+          <a className="hover:animate-bounce" href="https://www.youtube.com/@ciafitfamilyclub">
             <IconBrandYoutube
               className="cursor-pointer"
               stroke={1}

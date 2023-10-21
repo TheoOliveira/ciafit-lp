@@ -32,13 +32,13 @@ export default function Footer() {
           </div>
           <div className="flex flex-start gap-6 justify-center">
             <div className="flex gap-4">
-              <a className="hover:animate-bounce cursor-pointer">
+              <a className="hover:animate-bounce cursor-pointer" href="https://www.instagram.com/ciafitfamilyclub/">
                 <IconBrandInstagram color="white" size={40} />
               </a>
-              <a className="hover:animate-bounce cursor-pointer">
+              <a className="hover:animate-bounce cursor-pointer" href="https://www.facebook.com/ciafitfamilyclub">
                 <IconBrandFacebook color="white" size={40} />
               </a>
-              <a className="hover:animate-bounce cursor-pointer">
+              <a className="hover:animate-bounce cursor-pointer" href="https://www.youtube.com/@ciafitfamilyclub">
                 <IconBrandYoutube color="white" size={40} />
               </a>
             </div>
